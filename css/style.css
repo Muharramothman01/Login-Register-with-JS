@@ -1,0 +1,120 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+body
+{
+    background-color: rgb(240, 106, 106);
+    background-image: url(../img/bg-intro-desktop.png);
+}
+
+main
+{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content
+{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.switch
+{
+    height: 75px;
+    border: 3px solid #5D54A3;
+    background-color: #312c53;
+    border-radius: 50px;
+    position: relative;
+    bottom: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn1
+{
+    width: 250px;
+    height: 70px;
+    background-color: #5D54A3;
+    border-radius: 50px;
+    position: absolute;
+    top: -0.5px;
+    left: 0px;
+}
+
+.register_login #reg
+{
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-sizing: content-box;
+}
+
+
+
+.fName,.lName,.email,.pass,.confirmPass,.gender,.birth,.accept,#register
+{
+    margin: 20px 0px;
+}
+
+.reg
+{
+    z-index: 5;
+    cursor: pointer;
+}
+
+.log
+{
+    z-index: 5;
+    cursor: pointer;
+}
+
+.fName input,.lName input,.email input,.pass input,.confirmPass input
+{
+    width: 100%;
+    height: 50px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius:10px;
+}
+
+.birth
+{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#month,#year,#day
+{
+    width: 30%;
+    height: 40px;
+    outline: none;
+    border-radius:10px ;
+    border: 1px solid gray;
+}
+
+input[type=text],input[type=email],input[type=password]
+{
+    padding: 0px 20px;
+}
+
+input[type=submit]
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #5D54A3;
+    color: white;
+    border:none;
+}
